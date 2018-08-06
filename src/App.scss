@@ -68,7 +68,7 @@ $color-blue: #54ABD6;
     input {
       @extend p;
       width: 100%;
-      height: 3vh;
+      height: 2vh;
       margin-bottom: 12px;
       padding: 3px;
       border: 1px solid $color-boxGrey;
@@ -115,7 +115,7 @@ $color-blue: #54ABD6;
     textarea {
       width: 100%;
       height: 10vh;
-      margin-bottom: 5vh;
+      margin-bottom: 1vh;
       border: 1px solid $color-boxGrey;
       border-radius: 2px;
       @extend p;
@@ -129,7 +129,17 @@ $color-blue: #54ABD6;
       color: $color-blue;
       text-decoration: none;
       font-style: italic;
+      width: 100%;
+      float:left;
     }
+  }
+
+  .error {
+    font-size: 8px;
+    color: red;
+    margin-top: -3px;
+    float: left;
+    width: 100%;
   }
 
 }
