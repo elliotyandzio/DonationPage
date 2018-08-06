@@ -1,7 +1,9 @@
-#Instructions for Donation Page
+<h1>Instructions for Donation Page</h1>
 
-##Validation
-####Starter code the errors will display in the console and everything works correctly. There is a commented out validation section where the validation works inline but the submit button has to be pressed twice.
+<h4>Starter code the errors will display in the console and everything works correctly. There is a commented out validation section where the validation works inline but the submit button has to be pressed twice.<h4>
+
+<h2>Validation<h2>
+
 <ul>
 	<li>The name field can't be left empty</li>
 	<li>The email field can't be left empty and must contain an '@' sign</li>
