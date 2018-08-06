@@ -54,7 +54,7 @@ class App extends React.Component {
     }
 
 
-      //Validation logic which brings the error messages inline but have to click the submit button twice (not sure why)
+      //Validation logic which brings the error messages inline but have to click the submit button twice
   //   (!name) ? this.setState({nameError: true }) : this.setState({nameError: false});
   //   (!telephone || telephone.length !== 11) ? this.setState({telephoneError: true }) : this.setState({telephoneError: false});
   //   (!cardNumber || cardNumber.length !== 16) ? this.setState({cardNumberError: true }) : this.setState({cardNumberError: false});
